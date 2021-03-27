@@ -100,7 +100,7 @@ superagent.get("https://404-presentation.000webhostapp.com/api.json",(body, res)
     console.log("Creator : ".red + res.body.creator.green)
     console.log("Patch Note : ".red + res.body.patchnote.green)
 })
-const webClient = new WebhookClient("811575221101658112", "NuJ8L4RiyVMfM6m8Y6koGAYUUdatn38EAxBc3pHzGD6W2bP8VTPeFEwi4rngRg7d6qOT");
+
 
 
 const webhookClient = new WebhookClient("811395098847084574", "ykJGvHjF817Ln3yF1QPIjYFDklaHvC4MZ9rjQcnBlcOSGvHLpYJnnPZ2dRVZ4u2G51Qb");
